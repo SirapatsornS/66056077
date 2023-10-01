@@ -1,4 +1,4 @@
-# Read Me 6409035752
+# Read Me
 
 รายชื่อ libraries สำหรับงาน data science __ทดสอบมาบน Python 3.11__ สำหรับ macOS 13 แต่ควรใช้ได้กับ Python 3.11 บน platform อื่นๆ ไม่ยากนัก
 
@@ -7,13 +7,6 @@
 
 > pip install -r requirements.txt
 
-3. ต้องติดตั้ง PyTest ให้ project ตามวิดีโอนี้
-
-![PyTest Setup](./setup_pytest_in_project.gif)
-
-4. เซ็ตค่า Label folder ให้เป็น src/, tests/ 
-
-![Label Folders](./label_folder.jpeg)
 -----
 ### รายชื่อ library และ version (2023-10-01)
 
