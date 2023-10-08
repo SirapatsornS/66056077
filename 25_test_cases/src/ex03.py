@@ -14,8 +14,8 @@ def is_odd(num):
         bool: True if the number is odd, False otherwise.
     """
     # TODO : complete this
-    pass
-
+    number = num % 2
+    return number == 1
 
 def is_even(num):
     """
@@ -28,4 +28,5 @@ def is_even(num):
         bool: True if the number is even, False otherwise.
     """
     # TODO : complete this
-    pass
+    number = num % 2
+    return number == 0
