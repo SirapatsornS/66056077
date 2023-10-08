@@ -13,7 +13,7 @@ def ordinal_suffix(number):
     Returns:
         str: The ordinal suffix corresponding to the given number.
     """
-    # TODO : complete this
+    # FIX : complete this
     last_num = int(str(number)[-1:])
     last_2num = int(str(number)[-2:])
     len_num = (len(str(number)))
