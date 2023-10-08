@@ -13,7 +13,7 @@ def is_odd(num):
     Returns:
         bool: True if the number is odd, False otherwise.
     """
-    # TODO : complete this
+    # FIX : complete this
     number = num % 2
     return number == 1
 
@@ -27,6 +27,6 @@ def is_even(num):
     Returns:
         bool: True if the number is even, False otherwise.
     """
-    # TODO : complete this
+    # FIX : complete this
     number = num % 2
     return number == 0
