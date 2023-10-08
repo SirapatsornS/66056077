@@ -3,7 +3,7 @@ Execise 2
 """
 
 
-def convert_to_fahrenheit():
+def convert_to_fahrenheit(celsius=0):
     """
     Convert Celsius temperature to Fahrenheit.
 
@@ -13,11 +13,12 @@ def convert_to_fahrenheit():
     Returns:
         float: The temperature in Fahrenheit.
     """
-    # TODO : complete this
-    pass
+    # FIX : complete this
+    fahrenheit = (9/5) * celsius + 32
+    return round(fahrenheit)
 
 
-def convert_to_celsius():
+def convert_to_celsius(fahrenheit= 0):
     """
     Convert a temperature from Fahrenheit to Celsius.
 
@@ -27,5 +28,6 @@ def convert_to_celsius():
     Returns:
     - float: The temperature in Celsius.
     """
-    # TODO : complete this
-    pass
+    # FIX : complete this
+    celsius = (fahrenheit - 32) * (5/9)
+    return round(celsius)
