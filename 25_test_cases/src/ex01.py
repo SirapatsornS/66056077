@@ -33,5 +33,5 @@ def say_hi(name=None):
     Args:
         name (str, optional): The name to greet. Defaults to None.
     """
-    # TODO : complete this
-    pass
+    # FIX : complete this
+    print(f'สวัสดีคุณ{name}')   #or print('สวัสดีคุณ'+name)
