@@ -21,8 +21,9 @@ def know_my_name():
     Returns:
         str: The name entered by the user.
     """
-    # TODO : complete this
-    pass
+    # FIX : complete this
+    name = input('')   #so this only ''
+    return name
 
 
 def say_hi(name=None):
