@@ -60,3 +60,4 @@ if __name__ == '__main__':
     print(caculateMedian([1,2,3])==2)
     print(caculateMedian([3,7,10,4,1,9,6,5,2,8])==5.5)
     print(caculateMedian([3,7,10,4,1,9,6,2,8])==6)
+    print('END')

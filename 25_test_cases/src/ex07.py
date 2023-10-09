@@ -3,7 +3,7 @@ Execise 7
 """
 
 
-def print_ASCII_table():
+def print_ASCII_table(fr,se):
     """
     Generate and print the ASCII table for a range of characters.
 
@@ -15,5 +15,7 @@ def print_ASCII_table():
         str: Returns nothing. The function simply prints the ASCII characters.
 
     """
-    # TODO : complete this
-    pass
+    # FIX : complete this
+    for i in range(fr,se):
+        ch_ascci = chr(i)
+        return ch_ascci

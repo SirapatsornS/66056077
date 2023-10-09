@@ -22,3 +22,5 @@ def test_ordinal_suffix():
     assert ordinal_suffix(13) == '13th'
     assert ordinal_suffix(14) == '14th'
     assert ordinal_suffix(101) == '101st'
+
+#%%
