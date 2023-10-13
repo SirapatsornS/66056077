@@ -20,3 +20,4 @@ def average(num_list: list) -> float:
         sumnum = sumnum + i
     average = sumnum/len_list
     return average
+
