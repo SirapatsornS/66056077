@@ -16,6 +16,6 @@ def print_ASCII_table(fr,se):
 
     """
     # FIX : complete this
-    for i in range(fr,se):
-        ch_ascci = chr(i)
-        return ch_ascci
+    for i in range(fr,se+1):
+        captured = chr(i)
+        print(captured)
